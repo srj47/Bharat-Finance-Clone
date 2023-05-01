@@ -143,14 +143,13 @@ const HomePage = () => {
             <div className="row">
               {/* <div className="col-sm-2 bg-danger "></div> */}
               <div
-                className="col-sm-10 "
+                className="col-sm-12 "
                 style={{
                   backgroundColor: "#f1f5f8",
                 }}
               >
                 <div className="row ">
-                  <div className="col-sm-2"></div>
-                  <div className="col-sm-10">
+                  <div className="col-sm-12">
                     <h1
                       className="py-5 mt-5 text-center"
                       style={{
@@ -181,8 +180,7 @@ const HomePage = () => {
                 </div>
 
                 <div className="row py-5">
-                  <div className="col-sm-2"></div>
-                  <div className="col-sm-10">
+                  <div className="col-sm-12">
                     <p className="fs-3 text-center">
                       We help take your small business to the next level. Don’t
                       hesitate to contact us.
@@ -198,7 +196,6 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-2"></div>
             </div>
 
             {/* <div className="row  developing_leaders_con">
@@ -234,7 +231,7 @@ const HomePage = () => {
           <div className="col-lg-6 col-sm-0 help_you">
             <div className="row">
               <div
-                className="col-sm-12 py-5 fw-bolder"
+                className="col-sm-12 p-5 fw-bolder"
                 style={{
                   fontSize: 33,
                   marginTop: 90,
@@ -302,10 +299,7 @@ const HomePage = () => {
         <div className="container-fluid px-0 con_6">
           <div
             className="row d-sm-flex align-items-center justify-content-evenly content "
-            style={{
-              padding: 50,
-            }}
-          >
+            style={{"padding": "7em" }}         >
             <div className="col-sm-12  col-lg-4 ">
               <Cards
                 t_text="Projects with 100% satisfaction"
@@ -361,7 +355,7 @@ const HomePage = () => {
             {/* inside the choosing for Finance */}
             <div className="row  pt-5 mt-5 main_Consultation_container ">
               <div
-                className="col-sm-12  col-lg-6 px-5"
+                className="col-sm-12  col-lg-6 px-lg-5 px-sm-0"
                 style={
                   {
                     // position:'relative'
@@ -370,7 +364,7 @@ const HomePage = () => {
               >
                 <div className="row">
                   <div
-                    className="col-sm-12 p-5 Consultation_container "
+                    className="col-sm-12 p-lg-5 p-sm-3 mb-5  Consultation_container "
                     style={
                       {
                         // position:'absolute',
@@ -450,7 +444,7 @@ const HomePage = () => {
                 <div className="row">
                   <div className="col-sm-12">
                     <h1
-                      className="fw-bolder p-5"
+                      className="fw-bolder"
                       style={{
                         color: "#fff",
                         fontSize: 35,
@@ -654,7 +648,7 @@ const HomePage = () => {
           </div>
 
           <div
-            className="col-lg-6 col-sm-12 bottom_slider"
+            className="col-lg-6 col-sm-12 bottom_slider mx-0 px-0"
             style={{
               display: "flex",
               //    alignItems: "center",

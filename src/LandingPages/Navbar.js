@@ -21,7 +21,7 @@ const Navbar = () => {
     <>
       {/* top navbar */}
       <div className="row">
-        <div className="col-sm-12 col-lg-12">
+        <div className="col-sm-12 col-lg-12 mx-0 px-0">
           <div className="f_header_top">
             <div className="inner_f_header_top">
               <div className="l_inner_f_header_top">
@@ -116,7 +116,7 @@ export const MainNavbar = () => {
 
   return (
     <>
-      <div className=" nav_bar d-flex">
+      <div className=" nav_bar d-flex ">
         <div className="d-inline fs-1 text-sm-center fw-bold py-4">
           <img
             src={LOGO}

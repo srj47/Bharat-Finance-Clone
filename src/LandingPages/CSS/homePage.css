@@ -459,10 +459,10 @@
 }
 
 .developing_leaders_con .inner_developing_leaders {
-  width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+      width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .developing_leaders_con .inner_developing_leaders .dev_led_main {
@@ -1087,6 +1087,12 @@
   width: 48%;
 }
 
+@media(max-width: 736px){
+.feacture_sections_two .inner_f_s_t .left_feacture_section {
+  width: 88%;
+}
+}
+
 .feacture_sections_two
   .inner_f_s_t
   .left_feacture_section
@@ -1105,6 +1111,11 @@
 
 .feacture_sections_two .inner_f_s_t .right_feacture_section {
   width: 48%;
+}
+@media(max-width: 736px){
+.feacture_sections_two .inner_f_s_t .right_feacture_section {
+  width: 88%;
+}
 }
 
 .feacture_sections_two
@@ -1135,12 +1146,12 @@
 
 .footer_div .inner_footer_div {
   width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10rem 3rem;
-  color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 9rem 7rem 0em 7em;
+    color: #fff;
 }
 
 .footer_div .inner_footer_div .second_part {
@@ -1346,7 +1357,7 @@
 .main_Consultation_container {
   display: flex;
   align-items: flex-end;
-  padding: 0px 50px;
+  padding: 0px 7em;
   position: absolute;
   bottom: -10;
   right: 0;
@@ -1639,7 +1650,7 @@
     background-color: #fd4a36;
   }
   .reason_image {
-    display: none;
+    display: none !important;
   }
   .reason_main_con {
     background-image: url("../../../public/img/pattern-3.png");

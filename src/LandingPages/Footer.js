@@ -10,7 +10,7 @@ import LOGO from "../AID_MEDIA_LOGO.png";
 const Footer = () => {
   return (
     <>
-      <div className="footer_div ">
+      <div className="footer_div mx-0 px-0">
         <div className=" inner_footer_div">
           <div className="first_part"></div>
 
@@ -84,7 +84,6 @@ const Footer = () => {
           <div className="third_part">
             <div className="f_tp_footer">
               <h3>Privacy Policy/Terms & Conditions</h3>
-              <h3>Get back to home</h3>
             </div>
             <div className="s_tp_footer">
               <div className="inner_s_tp_footer">

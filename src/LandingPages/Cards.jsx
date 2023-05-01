@@ -199,7 +199,7 @@ export const ServiceBox = ({ icon, text }) => {
 export const DevelopingCards = () => {
   return (
     <>
-      <div className=" dev_led_main py-4 my-5">
+      <div className=" dev_led_main py-4 my-5 mx-4">
         <div className="image">
           <div className="icon">
             <span>
