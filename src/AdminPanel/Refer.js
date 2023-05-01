@@ -13,7 +13,7 @@ const Refer = () => {
   return (
     <div className="AdminContainer">
       <div className="row mx-0 p-4">
-        <div className="col-sm-12 rounded p-5 metalic-color ">
+        <div className="col-sm-12 rounded p-5 metalic-color overflow-auto ">
           <div className="col-sm-6 mx-auto">
             <h2 className="mb-4">Refer </h2>
             <label className="form-label">copy code and share</label>

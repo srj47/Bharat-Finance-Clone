@@ -4,7 +4,7 @@ const ViewTask = () => {
   return (
     <div className="AdminContainer">
       <div className="row mx-0 p-4">
-        <div className="col-sm-12 rounded p-5 metalic-color ">
+        <div className="col-sm-12 rounded p-5 metalic-color overflow-auto ">
           <h2 className="mb-4">Tasks</h2>
           <table className="table table-striped text-light">
             <thead>

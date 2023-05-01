@@ -1,138 +1,187 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import "./CSS/homePage.css";
 import { HeaderCard } from "./Cards";
+import Navbar, { MainNavbar } from "./Navbar";
 
 const PolicyPrivacy = () => {
   return (
-    <div>
-      <HeaderCard header="Privacy Policy" path="HOME >  PRIVACY POLICY" />
+    <>
+      <Navbar />
+      <MainNavbar />
+      <div>
+        <HeaderCard header="Privacy Policy" path="HOME >  PRIVACY POLICY" />
 
-      <div className="header_title">
-        <h1>
-          Privacy Policy For <br />
-          FINANCE PVT. LTD.
-        </h1>
-      </div>
-      <div className="t_c_para">
-        <div className="circles_div wrk_prog_circle">
-          <div className="circles"></div>
-          <div className="circles"></div>
-          <div className="circles circle_middel"></div>
-          <div className="circles"></div>
-          <div className="circles"></div>
+        <div className="header_title">
+          <h1>Privacy Policy For AID MEDIA!</h1>
         </div>
-        <div className="row px-0 mx-0">
-          <div className="col-sm-12">
-            <p className="fs-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
-              atque et at tempore excepturi? Voluptatem expedita aperiam iste at
-              repellendus incidunt delectus consequuntur distinctio id
-              accusamus, porro quibusdam, officiis ipsam, laudantium doloribus.
-              Esse molestiae atque corrupti, maxime libero eos dolorem soluta
-              nulla eum provident aspernatur minus, officiis quasi, animi
-              accusantium nemo hic! Praesentium optio consequuntur animi
-              accusantium, culpa corrupti laudantium harum tempora fugit, fuga
-              dolore ipsa magni, ullam odit natus blanditiis totam eius. Eum
-              dignissimos nemo doloremque non quidem nisi at debitis culpa
-              temporibus dolorum. Aliquid quam quidem quisquam dolorem aut quasi
-              corrupti, alias repudiandae nihil accusantium illo, distinctio,
-              molestiae omnis maxime ipsum illum? Ut quibusdam deleniti
-              distinctio fuga eaque? Expedita doloribus molestiae, harum
-              adipisci voluptatibus consequatur, nostrum provident laborum
-              suscipit officia voluptatem eos doloremque earum deserunt quam est
-              cumque amet inventore asperiores dolor. Reprehenderit blanditiis
-              perspiciatis minima asperiores dolorem nemo, eligendi, eum tempore
-              cumque necessitatibus quisquam itaque dolores dolor sequi
-              aspernatur aliquid alias atque. Officiis aut culpa maiores.
-              Laborum excepturi eligendi repudiandae corrupti quas, aperiam hic
-              quaerat porro officiis similique maxime ad aut dolores maiores
-              perspiciatis laboriosam! Rem eum recusandae corporis optio
-              corrupti adipisci nesciunt non quam voluptas beatae atque
-              inventore tempore possimus iusto voluptates modi nobis, ea dicta
-              incidunt magnam ipsa cum facere dolor animi? Sit facere libero
-              provident, atque explicabo error quidem cumque quaerat eos quas.
-              Aliquid velit recusandae id, omnis soluta quia repellendus ad,
-              eveniet adipisci laborum aut accusantium assumenda nobis atque
-              excepturi repudiandae cum quas odio quaerat quisquam dolores. Id
-              nam in expedita nisi voluptate, dicta reprehenderit magnam optio
-              ut facere fuga ex, facilis error, quis possimus suscipit eum
-              beatae modi? Placeat nobis fugit, illum repudiandae quas repellat
-              mollitia ipsum possimus molestiae fuga recusandae. Quisquam
-              tempore corporis ut fugiat maiores, necessitatibus facere autem
-              saepe in accusamus recusandae doloremque alias ratione, dicta quod
-              obcaecati itaque numquam.
-            </p>
+        <div className="t_c_para">
+          <div className="circles_div wrk_prog_circle">
+            <div className="circles"></div>
+            <div className="circles"></div>
+            <div className="circles circle_middel"></div>
+            <div className="circles"></div>
+            <div className="circles"></div>
           </div>
-          <div className="row px-0 mx-0">
+          <div className="row">
             <div className="col-sm-12">
-              <h1 className="fs-1 fw-3" style={{ color: "#201630" }}>
-                lorem
-              </h1>
               <p className="fs-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
-                enim velit iure reprehenderit quo quaerat facere commodi fugit
-                reiciendis assumenda blanditiis voluptatem dolorum deleniti
-                laborum sit incidunt, modi sed, nemo aliquam! Quibusdam, at
-                aliquid earum fuga nemo quidem non, laborum consequuntur
-                perferendis cupiditate dolorum. Est voluptatem quo, aut itaque,
-                rem repudiandae distinctio at temporibus iure ducimus laborum
-                quibusdam enim, sapiente praesentium cumque fugit odit
-                recusandae dicta a mollitia magnam accusantium. Debitis libero
-                quo temporibus asperiores soluta dicta omnis quaerat!
-                Asperiores, ducimus, quibusdam veritatis libero tempora aliquam
-                similique non obcaecati, eum ipsa doloribus odit porro tenetur
-                quas. Quo illo deleniti dolorem!
+                At AID MEDIA PVT. LTD., accessible from
+                https://bharatfinance.site/, one of our main priorities is the
+                privacy of our visitors. This Privacy Policy document contains
+                types of information that is collected and recorded by AID MEDIA
+                PVT. LTD. and how we use it. If you have additional questions or
+                require more information about our Privacy Policy, do not
+                hesitate to contact us.
               </p>
             </div>
           </div>
-          <div className="row px-0 mx-0">
+          <div className="row">
             <div className="col-sm-12">
               <h1 className="fs-1 fw-3" style={{ color: "#201630" }}>
-                lorem
+                Log Files
               </h1>
               <p className="fs-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
-                enim velit iure reprehenderit quo quaerat facere commodi fugit
-                reiciendis assumenda blanditiis voluptatem dolorum deleniti
-                laborum sit incidunt, modi sed, nemo aliquam! Quibusdam, at
-                aliquid earum fuga nemo quidem non, laborum consequuntur
-                perferendis cupiditate dolorum. Est voluptatem quo, aut itaque,
-                rem repudiandae distinctio at temporibus iure ducimus laborum
-                quibusdam enim, sapiente praesentium cumque fugit odit
-                recusandae dicta a mollitia magnam accusantium. Debitis libero
-                quo temporibus asperiores soluta dicta omnis quaerat!
-                Asperiores, ducimus, quibusdam veritatis libero tempora aliquam
-                similique non obcaecati, eum ipsa doloribus odit porro tenetur
-                quas. Quo illo deleniti dolorem!
+                AID MEDIA PVT. LTD. Follows a standard procedure of using log
+                files. These files log visitors when they visit websites. All
+                hosting companies do this and a part of hosting services'
+                analytics. The information collected by log files include
+                internet protocol (IP) addresses, browser type, Internet Service
+                Provider (ISP), date and time stamp, referring/exit pages, and
+                possibly the number of clicks. These are not linked to any
+                information that is personally identifiable. The purpose of the
+                information is for analyzing trends, administering the site,
+                tracking users' movement on the website, and gathering
+                demographic information. Our Privacy Policy was created with the
+                help of the Privacy Policy Generator.
               </p>
             </div>
           </div>
-          <div className="row px-0 mx-0">
+          <div className="row">
             <div className="col-sm-12">
               <h1 className="fs-1 fw-3" style={{ color: "#201630" }}>
-                lorem
+                Cookies and Web Beacons
               </h1>
               <p className="fs-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
-                enim velit iure reprehenderit quo quaerat facere commodi fugit
-                reiciendis assumenda blanditiis voluptatem dolorum deleniti
-                laborum sit incidunt, modi sed, nemo aliquam! Quibusdam, at
-                aliquid earum fuga nemo quidem non, laborum consequuntur
-                perferendis cupiditate dolorum. Est voluptatem quo, aut itaque,
-                rem repudiandae distinctio at temporibus iure ducimus laborum
-                quibusdam enim, sapiente praesentium cumque fugit odit
-                recusandae dicta a mollitia magnam accusantium. Debitis libero
-                quo temporibus asperiores soluta dicta omnis quaerat!
-                Asperiores, ducimus, quibusdam veritatis libero tempora aliquam
-                similique non obcaecati, eum ipsa doloribus odit porro tenetur
-                quas. Quo illo deleniti dolorem!
+                Like any other website, AID MEDIA PVT. LTD. uses "cookies".
+                These cookies are used to store information including visitors'
+                preferences, and the pages on the website that the visitor
+                accessed or visited. The information is used to optimize the
+                users' experience by customizing our web page content based on
+                visitors' browser type and/or other information.
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-12">
+              <h1 className="fs-1 fw-3" style={{ color: "#201630" }}>
+                Google DoubleClick DART Cookie
+              </h1>
+              <p className="fs-4">
+                Google is one of a third-party vendor on our site. It also uses
+                cookies, known as DART cookies, to serve ads to our site
+                visitors based upon their visit to www.website.com and other
+                sites on the internet. However, visitors may choose to decline
+                the use of DART cookies by visiting the Google ad and content
+                network Privacy Policy at the following URL –
+                https://policies.google.com/technologies/ads
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-12">
+              <h1 className="fs-1 fw-3" style={{ color: "#201630" }}>
+                Privacy Policies
+              </h1>
+              <p className="fs-4">
+                You may consult this list to find the Privacy Policy for each of
+                the advertising partners of AID MEDIA PVT. LTD.
+              </p>
+              <p className="fs-4">
+                Third-party ad servers or ad networks uses technologies like
+                cookies, JavaScript, or Web Beacons that are used in their
+                respective advertisements and links that appear on AID MEDIA
+                PVT. LTD., which are sent directly to users' browser. They
+                automatically receive your IP address when this occurs. These
+                technologies are used to measure the effectiveness of their
+                advertising campaigns and/or to personalize the advertising
+                content that you see on websites that you visit.
+              </p>
+              <p className="fs-4">
+                Note that AID MEDIA PVT. LTD. Has no access to or control over
+                these cookies that are used by third-party advertisers.
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-12">
+              <h1 className="fs-1 fw-3" style={{ color: "#201630" }}>
+                Third Party Privacy Policies
+              </h1>
+              <p className="fs-4">
+                AID MEDIA PVT. LTD.'s Privacy Policy does not apply to other
+                advertisers or websites. Thus, we are advising you to consult
+                the respective Privacy Policies of these third-party ad servers
+                for more detailed information. It may include their practices
+                and instructions about how to opt-out of certain options.
+              </p>
+              <p className="fs-4">
+                You can choose to disable cookies through your individual
+                browser options. To know more detailed information about cookie
+                management with specific web browsers, it can be found at the
+                browsers' respective websites. What Are Cookies?
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-12">
+              <h1 className="fs-1 fw-3" style={{ color: "#201630" }}>
+                Children's Information
+              </h1>
+              <p className="fs-4">
+                Another part of our priority is adding protection for children
+                while using the internet. We encourage parents and guardians to
+                observe, participate in, and/or monitor and guide their online
+                activity.
+              </p>
+              <p className="fs-4">
+                AID MEDIA PVT. LTD. Does not knowingly collect any Personal
+                Identifiable Information from children under the age of 13. If
+                you think that your child provided this kind of information on
+                our website, we strongly encourage you to contact us immediately
+                and we will do our best efforts to promptly remove such
+                information from our records.
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-12">
+              <h1 className="fs-1 fw-3" style={{ color: "#201630" }}>
+                Online Privacy Policy Only
+              </h1>
+              <p className="fs-4">
+                This Privacy Policy applies only to our online activities and is
+                valid for visitors to our website with regards to the
+                information that they shared and/or collect in AID MEDIA PVT.
+                LTD.. This policy is not applicable to any information collected
+                offline or via channels other than this website.
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-12">
+              <h1 className="fs-1 fw-3" style={{ color: "#201630" }}>
+                Consent
+              </h1>
+              <p className="fs-4">
+                By using our website, you hereby consent to our Privacy Policy
+                and agree to its Terms and Conditions.
               </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

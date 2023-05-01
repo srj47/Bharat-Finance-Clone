@@ -23,7 +23,9 @@ input:focus {
 }
 a {
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  color: inherit !important;
 }
 a:hover {
   color: inherit;
@@ -33,7 +35,7 @@ a:active {
 }
 
 /* Small devices (sm) */
-@media (min-width: 376px) {
+@media (min-width: 250px) {
   /* CSS styles here */
 }
 
@@ -55,7 +57,8 @@ a:active {
 /* sign in css ================================================= */
 .background {
   background-color: #181323;
-  min-height: 100vh;
+  min-height: 80vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

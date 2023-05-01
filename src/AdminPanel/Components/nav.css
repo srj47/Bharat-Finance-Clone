@@ -1,11 +1,12 @@
 .nav {
   position: fixed;
   top: 0;
-  left: 230px;
+  left: 250px;
   transition: all 0.3s ease-in-out;
+  z-index: 5;
 }
 /* Small devices (sm) */
-@media (min-width: 376px) {
+@media (min-width: 250px) {
   .nav {
     left: 0;
   }
@@ -14,20 +15,20 @@
 /* Medium devices (md) */
 @media (min-width: 768px) {
   .nav {
-    left: 230px;
+    left: 250px;
   }
 }
 
 /* Large devices (lg) */
 @media (min-width: 992px) {
   .nav {
-    left: 230px;
+    left: 250px;
   }
 }
 
 /* Extra large devices (xl) */
 @media (min-width: 1200px) {
   .nav {
-    left: 230px;
+    left: 250px;
   }
 }

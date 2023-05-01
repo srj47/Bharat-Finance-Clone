@@ -29,7 +29,7 @@ import Refer from "./AdminPanel/Refer";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Routes>
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUP />} />
@@ -86,7 +86,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <Dashboard />
             </>
           }
@@ -96,7 +96,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <Profile />{" "}
             </>
           }
@@ -106,7 +106,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <DirectTeam />{" "}
             </>
           }
@@ -116,7 +116,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <LevelTeam />{" "}
             </>
           }
@@ -126,7 +126,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <ViewTask />{" "}
             </>
           }
@@ -136,7 +136,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <TaskHistory />{" "}
             </>
           }
@@ -146,7 +146,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <ScanPay />{" "}
             </>
           }
@@ -156,7 +156,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <PaymentHistory />{" "}
             </>
           }
@@ -166,7 +166,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <Support />{" "}
             </>
           }
@@ -176,7 +176,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <SupportHistory />{" "}
             </>
           }
@@ -186,7 +186,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <DirectWithdraw />{" "}
             </>
           }
@@ -196,7 +196,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <AdsViewWithdraw />{" "}
             </>
           }
@@ -206,7 +206,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <WithdrawHistory />{" "}
             </>
           }
@@ -216,7 +216,7 @@ function App() {
           element={
             <>
               <Sidebar />
-<NavBar/>
+              <NavBar />
               <Refer />{" "}
             </>
           }

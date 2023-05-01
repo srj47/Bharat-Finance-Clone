@@ -1,7 +1,7 @@
 /* Small devices (sm) */
-@media (min-width: 376px) {
+@media (min-width: 250px) {
   .SidebarVisible {
-    left: -230px;
+    left: -250px;
   }
   .SidebarHide {
     left: 0px;
@@ -58,20 +58,21 @@
 
 .sidebar {
   color: azure;
-  width: 230px;
+  width: 250px;
   height: 100%;
-  padding-right: 50px;
+  padding-right: 10px;
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   padding-top: 30px;
   transition: all 0.3s ease-in-out;
+  font-size: 3rem !important;
 }
 
 .sidebarBTN {
   position: absolute;
-  left: 210px;
+  left: 240px;
   top: 0;
   width: 50px;
   z-index: 10;
@@ -89,6 +90,7 @@
 .sub-menu {
   display: none;
   transition: all 0.3s ease-in-out;
+  font-size: 2rem !important;
 }
 .sidebar > ul > li,
 .sidebar > ul > li > ul > li {

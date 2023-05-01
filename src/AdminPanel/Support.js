@@ -4,7 +4,7 @@ const Support = () => {
   return (
     <div className="AdminContainer">
       <div className="row mx-0 p-4">
-        <div className="col-sm-12 rounded p-5 metalic-color ">
+        <div className="col-sm-12 rounded p-5 metalic-color overflow-auto ">
           <h2 className="mb-4">Support</h2>
 
           <div className="col-sm-6 mx-auto">

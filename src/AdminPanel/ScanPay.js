@@ -4,7 +4,7 @@ const ScanPay = () => {
   return (
     <div className="AdminContainer">
       <div className="row mx-0 p-4">
-        <div className="col-sm-12 rounded p-5 metalic-color ">
+        <div className="col-sm-12 rounded p-5 metalic-color overflow-auto ">
           <h2 className="mb-4">Scan & Pay</h2>
           <h5>Deposite & Send Sceenshots</h5>
           <div className="col-sm-3 mx-auto">

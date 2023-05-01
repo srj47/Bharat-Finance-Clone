@@ -1,12 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import "./CSS/homePage.css";
-import { HeaderCard, ContactCards } from "./Cards";
+import { HeaderCard, ContactCards, SlidingBox } from "./Cards";
+import Navbar, { MainNavbar } from "./Navbar";
 
 const Contact = () => {
   return (
-    <div>
-      <HeaderCard header="Get in Touch" path="HOME  > Contact us" />
+    <>
+      <Navbar />
+      <MainNavbar />
+      <HeaderCard
+        header="Terms and Conditions"
+        path="HOME  > TERMS AND CONDITIONS"
+      />
 
       <div className="row ">
         <div className="col-sm-12  ">
@@ -19,7 +25,7 @@ const Contact = () => {
                 borderRadius: 10,
               }}
             >
-              <div className="row px-0 mx-0">
+              <div className="row">
                 <div className="col-sm-12">
                   <h1
                     className=" text-center py-5"
@@ -45,7 +51,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className="row px-0 mx-0">
+              <div className="row">
                 <div className="col-sm-12">
                   <div
                     className=" row pt-5"
@@ -73,7 +79,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="contact_from_con">
+      <div className="contact_from_con mb-5">
         <div className="left_contact">
           <div className="row py-5 ">
             <div className="col-sm-10">
@@ -121,7 +127,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="row px-0 mx-0">
+              <div className="row">
                 <div className="col-sm-12">
                   <p className="fs-3 py-5">
                     Monday - Friday:
@@ -172,7 +178,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="row px-0 mx-0">
+                <div className="row">
                   <div className="col-sm-6">
                     <div className="mb-3">
                       <input
@@ -196,7 +202,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="row px-0 mx-0">
+                <div className="row">
                   <div className="col-sm-12">
                     <div className="mb-3">
                       <select
@@ -224,10 +230,10 @@ const Contact = () => {
                   <div className="col-sm-12 pb-5">
                     <div className="btn_slider contact_btn">
                       <button
-                        className="shadow-lg"
+                        className="shadow-lg py-4"
                         style={{
-                          color: "#fd4a36",
-                          backgroundColor: "#fff",
+                          backgroundColor: "#fd4a36",
+                          color: "#fff",
                         }}
                       >
                         Send Message
@@ -240,7 +246,33 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </div>
+
+      <div className="row">
+        <div className="col-sm-12">
+          <h1
+            className=" py-5 text-center mt-5"
+            style={{
+              fontSize: 40,
+              fontWeight: "bold",
+            }}
+          >
+            Find Answers In Our <br />
+            List Of Frequently Asked Questions
+          </h1>
+          <div className="circles_div r_padding pb-5">
+            <div className="circles"></div>
+            <div className="circles"></div>
+            <div className="circles circle_middel"></div>
+            <div className="circles"></div>
+            <div className="circles"></div>
+          </div>
+
+          <SlidingBox />
+          <SlidingBox />
+          <SlidingBox />
+        </div>
+      </div>
+    </>
   );
 };
 

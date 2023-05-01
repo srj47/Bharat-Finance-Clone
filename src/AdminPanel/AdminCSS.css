@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 /* Small devices (sm) */
-@media (min-width: 376px) {
+@media (min-width: 250px) {
   .AdminContainer {
     padding-left: 0;
   }
@@ -11,21 +11,21 @@
 /* Medium devices (md) */
 @media (min-width: 768px) {
   .AdminContainer {
-    padding-left: 230px;
+    padding-left: 250px;
   }
 }
 
 /* Large devices (lg) */
 @media (min-width: 992px) {
   .AdminContainer {
-    padding-left: 230px;
+    padding-left: 250px;
   }
 }
 
 /* Extra large devices (xl) */
 @media (min-width: 1200px) {
   .AdminContainer {
-    padding-left: 230px;
+    padding-left: 250px;
   }
 }
 
@@ -38,7 +38,7 @@
   right: 0;
   bottom: 0;
   transition: all 0.3s ease-in-out;
-  
+  font-size: 10rem !important;
 }
 .metalic-color {
   background-color: #181323;
