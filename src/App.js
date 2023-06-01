@@ -23,13 +23,12 @@ import PaymentHistory from "./AdminPanel/PaymentHistory";
 import Support from "./AdminPanel/Support";
 import SupportHistory from "./AdminPanel/SupportHistory";
 import DirectWithdraw from "./AdminPanel/DirectWithdraw";
-import AdsViewWithdraw from "./AdminPanel/AdsViewWithdraw";
 import WithdrawHistory from "./AdminPanel/WithdrawHistory";
 import Refer from "./AdminPanel/Refer";
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUP />} />
