@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Bharat-Finance-Clone/static/css/main.b3afa80d.css",
+    "main.js": "/Bharat-Finance-Clone/static/js/main.3ffb1e97.js",
+    "static/media/image-1.png": "/Bharat-Finance-Clone/static/media/image-1.6673dfc21d925d01b1c8.png",
+    "static/media/pattern-2.png": "/Bharat-Finance-Clone/static/media/pattern-2.94097561def2d2825faa.png",
+    "static/media/bg-17.jpg": "/Bharat-Finance-Clone/static/media/bg-17.ad63d13575d595de4c14.jpg",
+    "static/media/1.jpg": "/Bharat-Finance-Clone/static/media/1.f5d0450db67758525fba.jpg",
+    "static/media/2.jpg": "/Bharat-Finance-Clone/static/media/2.bc7a4638af5fe3d27afd.jpg",
+    "static/media/AID_MEDIA_LOGO.png": "/Bharat-Finance-Clone/static/media/AID_MEDIA_LOGO.c424f266305ff8afa1dd.png",
+    "static/media/3.jpg": "/Bharat-Finance-Clone/static/media/3.34b79feb5ab907f7f821.jpg",
+    "static/media/bg-1.jpg": "/Bharat-Finance-Clone/static/media/bg-1.65e6128e6c7d78c66042.jpg",
+    "static/media/bg-21.jpg": "/Bharat-Finance-Clone/static/media/bg-21.972e5e8fb1301bbe272e.jpg",
+    "static/media/pattern-5.png": "/Bharat-Finance-Clone/static/media/pattern-5.210f972a990d0a0a254a.png",
+    "static/media/bg-23.jpg": "/Bharat-Finance-Clone/static/media/bg-23.100df6dcccf54aa45128.jpg",
+    "static/media/image-45.jpg": "/Bharat-Finance-Clone/static/media/image-45.57f536fd6fa4c6a6ea17.jpg",
+    "static/media/image-6.jpg": "/Bharat-Finance-Clone/static/media/image-6.6e0ce0512341815de12f.jpg",
+    "static/media/image-7.jpg": "/Bharat-Finance-Clone/static/media/image-7.37ab7702c4e2596ef93f.jpg",
+    "static/media/gallery-4.jpg": "/Bharat-Finance-Clone/static/media/gallery-4.c6215c4e0d45531bd6d4.jpg",
+    "static/media/bg-2.jpg": "/Bharat-Finance-Clone/static/media/bg-2.2759b0178b7f4def133f.jpg",
+    "static/media/gallery-5.jpg": "/Bharat-Finance-Clone/static/media/gallery-5.aaa6a655eb5ded0ba1bc.jpg",
+    "static/media/gallery-3.jpg": "/Bharat-Finance-Clone/static/media/gallery-3.6e43c187cc1eb42be9d2.jpg",
+    "static/media/gallery-1.jpg": "/Bharat-Finance-Clone/static/media/gallery-1.e627b3b1eb1ea62a7635.jpg",
+    "static/media/bg-22.jpg": "/Bharat-Finance-Clone/static/media/bg-22.802c46544bbf125f0519.jpg",
+    "static/media/gallery-2.jpg": "/Bharat-Finance-Clone/static/media/gallery-2.f386179dabd5258d927c.jpg",
+    "static/media/image-46.jpg": "/Bharat-Finance-Clone/static/media/image-46.ffed07b9b769d7df3e2c.jpg",
+    "static/media/image-1.jpg": "/Bharat-Finance-Clone/static/media/image-1.24550e4b405044b6630a.jpg",
+    "index.html": "/Bharat-Finance-Clone/index.html",
+    "main.b3afa80d.css.map": "/Bharat-Finance-Clone/static/css/main.b3afa80d.css.map",
+    "main.3ffb1e97.js.map": "/Bharat-Finance-Clone/static/js/main.3ffb1e97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3afa80d.css",
+    "static/js/main.3ffb1e97.js"
+  ]
+}
