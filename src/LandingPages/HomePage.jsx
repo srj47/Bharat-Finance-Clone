@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./CSS/homePage.css";
-import "./CSS/home.css";
 import Cards, { ImgCard, ProgCard, DevelopingCards } from "./Cards";
 import Footer from "./Footer";
 import Navbar, { MainNavbar } from "./Navbar";
@@ -9,6 +8,22 @@ import Navbar, { MainNavbar } from "./Navbar";
 import { SiSitepoint } from "react-icons/si";
 import { MdStarRate } from "react-icons/md";
 import { HiOutlineChat } from "react-icons/hi";
+
+import image1 from "./img/image-1.png";
+import slide1img from "./img/3.jpg";
+import slide2img from "./img/1.jpg";
+import slide3img from "./img/2.jpg";
+import icon12 from "./img/icon-12.png";
+import pattern3 from "./img/pattern-3.png";
+import image6 from "./img/image-6.jpg";
+import icon10 from "./img/icon-10.png";
+import image7 from "./img/image-7.jpg";
+import icon9 from "./img/icon-9.png";
+import gallery1 from "./img/gallery-1.jpg";
+import gallery2 from "./img/gallery-2.jpg";
+import gallery3 from "./img/gallery-3.jpg";
+import gallery4 from "./img/gallery-4.jpg";
+import gallery5 from "./img/gallery-5.jpg";
 
 const HomePage = () => {
   return (
@@ -29,7 +44,7 @@ const HomePage = () => {
                 {/* slide 1  */}
                 <div className="carousel-item active ">
                   <img
-                    src="./img/3.jpg"
+                    src={slide1img}
                     className="d-block w-100 carousel_main_img"
                     alt="..."
                   />
@@ -37,7 +52,7 @@ const HomePage = () => {
                     <div className="slider_title1 slider3">
                       <p>Get More. Make Less </p>
                       <h1>
-                        LETS START <br /> WITH FINANCE.{" "}
+                        LETS START <br /> WITH FINANCE.
                       </h1>
                       <div className="line_image "></div>
                       <div className="line_image l2"></div>
@@ -55,7 +70,7 @@ const HomePage = () => {
                 {/* slide 2  */}
                 <div className="carousel-item ">
                   <img
-                    src="./img/1.jpg"
+                    src={slide2img}
                     className="d-block w-100 carousel_main_img"
                     alt="..."
                   />
@@ -65,7 +80,7 @@ const HomePage = () => {
                       <div className="inner_r_slider2">
                         <p>BHARAT FINANCE WILL HELPING </p>
                         <h1>
-                          BUILD AND <br /> GROW BUSINESS{" "}
+                          BUILD AND <br /> GROW BUSINESS
                         </h1>
                         <div className="line_image "></div>
                         <div className="line_image l2"></div>
@@ -84,7 +99,7 @@ const HomePage = () => {
                 {/* slide 3 */}
                 <div className="carousel-item ">
                   <img
-                    src="./img/2.jpg"
+                    src={slide3img}
                     className="d-block w-100 carousel_main_img"
                     alt="..."
                   />
@@ -92,7 +107,7 @@ const HomePage = () => {
                     <div className="slider_title1 slider3">
                       <p>BHARAT FINANCE </p>
                       <h1>
-                        TAKE CARE <br /> OF YOUR FUTURE{" "}
+                        TAKE CARE <br /> OF YOUR FUTURE
                       </h1>
                       <div className="line_image "></div>
                       <div className="line_image l2">
@@ -208,11 +223,11 @@ const HomePage = () => {
 
         {/* How can we help You */}
         <section className="row ">
-          <div className="col-lg-6 col-sm-12">
+          <div className="col-lg-8 col-sm-12 mx-auto help_you">
             <div className="logo mt-5 img-thumbnail float-end rounded-circle ">
               <div className="log_inner p-4 m-4 img-thumbnail float-end rounded-circle shadow-lg  ">
                 <img
-                  src="./img/icon-12.png"
+                  src={icon12}
                   alt=""
                   className="img-thumbnail float-end   "
                 />
@@ -220,18 +235,7 @@ const HomePage = () => {
             </div>
             <div className="row">
               <div
-                className="col-sm-12 p-2 ms-5"
-                style={{
-                  marginTop: 150,
-                  backgroundColor: "#f1f2f5",
-                }}
-              ></div>
-            </div>
-          </div>
-          <div className="col-lg-6 col-sm-0 help_you">
-            <div className="row">
-              <div
-                className="col-sm-12 p-5 fw-bolder"
+                className="col-sm-12 p-5 mb-5 fw-bolder"
                 style={{
                   fontSize: 33,
                   marginTop: 90,
@@ -296,10 +300,11 @@ const HomePage = () => {
         </section>
 
         {/* container Boxes */}
-        <div className="container-fluid px-0 con_6">
+        <div className="container-fluid px-0 py-5 con_6">
           <div
             className="row d-sm-flex align-items-center justify-content-evenly content "
-            style={{"padding": "7em" }}         >
+            style={{ padding: "7em" }}
+          >
             <div className="col-sm-12  col-lg-4 ">
               <Cards
                 t_text="Projects with 100% satisfaction"
@@ -336,7 +341,7 @@ const HomePage = () => {
             }}
           >
             <img
-              src="./img/pattern-3.png"
+              src={pattern3}
               alt=""
               className="img-fluid float-end pattern_3_img"
             />
@@ -348,7 +353,7 @@ const HomePage = () => {
               }}
             >
               <div className="col-lg-12 ">
-                <img src="./img/image-1.png" alt="" className="img-fluid " />
+                <img src={image1} alt="" className="img-fluid " />
               </div>
             </div>
 
@@ -413,7 +418,7 @@ const HomePage = () => {
                             className="form-select fs-3"
                             aria-label="Default select example"
                           >
-                            <option selected>Open this select menu</option>
+                            <option defaultValue>Open this select menu</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
@@ -563,12 +568,12 @@ const HomePage = () => {
 
         <div className="proj_con_card ">
           <div className="inner_con_proj">
-            <ImgCard img_src={"./img/gallery-1.jpg"} />
-            <ImgCard img_src={"./img/gallery-2.jpg"} />
-            <ImgCard img_src={"./img/gallery-3.jpg"} />
-            <ImgCard img_src={"./img/gallery-4.jpg"} />
-            <ImgCard img_src={"./img/gallery-5.jpg"} />
-            <ImgCard img_src={"./img/gallery-1.jpg"} />
+            <ImgCard img_src={gallery1} />
+            <ImgCard img_src={gallery2} />
+            <ImgCard img_src={gallery3} />
+            <ImgCard img_src={gallery4} />
+            <ImgCard img_src={gallery5} />
+            <ImgCard img_src={gallery1} />
           </div>
         </div>
         {/* <div className="proj_con_card">
@@ -630,18 +635,10 @@ const HomePage = () => {
             >
               <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="2000">
-                  <img
-                    src="./img/image-6.jpg"
-                    className="d-block w-100"
-                    alt="..."
-                  />
+                  <img src={image6} className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item" data-bs-interval="2000">
-                  <img
-                    src="./img/image-7.jpg"
-                    className="d-block w-100"
-                    alt="..."
-                  />
+                  <img src={image7} className="d-block w-100" alt="..." />
                 </div>
               </div>
             </div>
@@ -717,11 +714,7 @@ const HomePage = () => {
               <div className="inner_left_feacture ">
                 <div className="row py-5 px-4 overlay_l_div">
                   <div className="col-sm-2 py-3">
-                    <img
-                      src="./img/icon-9.png"
-                      alt=""
-                      className="img-thumbnail"
-                    />
+                    <img src={icon9} alt="" className="img-thumbnail" />
                   </div>
                   <div className="col-sm-10 py-3">
                     <h2 className="fs-2">Become a Partner of Bharat Finance</h2>
@@ -736,11 +729,7 @@ const HomePage = () => {
               <div className="inner_right_feacture ">
                 <div className="row py-5 px-4 overlay_r_div">
                   <div className="col-sm-2 py-3 ">
-                    <img
-                      src="./img/icon-10.png"
-                      alt=""
-                      className="img-thumbnail"
-                    />
+                    <img src={icon10} alt="" className="img-thumbnail" />
                   </div>
                   <div className="col-sm-10 py-3">
                     <h2 className="fs-2">

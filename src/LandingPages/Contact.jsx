@@ -209,7 +209,7 @@ const Contact = () => {
                         className="form-select fs-4 p-3 rounded-3"
                         aria-label="Default select example"
                       >
-                        <option selected>Open this select menu</option>
+                        <option defaultValue>Open this select menu</option>
                         <option value="1">One</option>
                         <option value="2">Two</option>
                         <option value="3">Three</option>

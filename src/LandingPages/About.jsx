@@ -19,6 +19,9 @@ import { FaBalanceScale, FaIndustry } from "react-icons/fa";
 import { GiLifeTap } from "react-icons/gi";
 import { MdTrolley } from "react-icons/md";
 
+import img1 from "./img/image-46.jpg";
+import img2 from "./img/image-45.jpg";
+
 const About = () => {
   return (
     <div>
@@ -56,7 +59,7 @@ const About = () => {
         <div className="col-lg-6  col-sm-12 py-5 ">
           <div className="experience_year_block">
             <div className="image">
-              <img src="./img/image-46.jpg" alt="" />
+              <img src={img1} alt="" />
               <h2>14</h2>
 
               <div className="text">
@@ -70,7 +73,7 @@ const About = () => {
 
       <div class="row ">
         <div className="col-lg-6 col-sm-12 py-5 reason_about">
-          <img src="./img/image-45.jpg" alt="" className="img-fluid" />
+          <img src={img2} alt="" className="img-fluid" />
         </div>
 
         <div className="col-lg-6  col-sm-12 py-5  ">
@@ -290,7 +293,7 @@ const About = () => {
         </div>
         <div className="col-sm-6 py-5">
           <p className="fs-3">
-            Which is the same as saying through shrinking from toil and pain{" "}
+            Which is the same as saying through shrinking from toil and pain
             <br />
             these perfectly simple and easy to distinguish.
           </p>
@@ -314,7 +317,6 @@ const About = () => {
                 alignItems: "center",
               }}
             >
-              {" "}
               Banking & <br /> capital market
             </div>
           }
@@ -497,7 +499,7 @@ const About = () => {
               </div>
             </div>
             <p className="fs-3 px-5 py-5">
-              We have won 27 more awards in our career. View All Awards{" "}
+              We have won 27 more awards in our career. View All Awards
               <BsArrowRight className="fw-bold fs-2" />
             </p>
           </div>

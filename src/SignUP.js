@@ -7,14 +7,13 @@ const SignUP = () => {
   return (
     <>
       <Navbar />
-      <MainNavbar />{" "}
+      <MainNavbar />
       <div className="background">
         <div className="center-box col-sm-6 p-5 my-5 ">
           <h1 className="my-4">LOGO</h1>
           <h4>Sign Up | Bharat Finance</h4>
           <form className="row text-start fs-3">
             <div className="col-sm-6">
-              {" "}
               <h6 className="form-label float-start mt-3 fs-4">
                 Sponsor Id/Invite Code (Optional)
               </h6>

@@ -8,6 +8,9 @@ import {
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { IoHomeOutline } from "react-icons/io5";
 
+import icon50 from "./img/icon-50.png";
+import image1 from "./img/image-1.jpg";
+
 const Cards = ({ t_text, m_text, b_text, logo_img }) => {
   return (
     <div className="container-fluid shadow-lg content_box ">
@@ -48,7 +51,7 @@ const Cards = ({ t_text, m_text, b_text, logo_img }) => {
   );
 };
 
-export const ImgCard = ({ img_src }) => {
+export const ImgCard = (props) => {
   return (
     // <div className="card_con">
     //     <div className="inner_card_con">
@@ -80,7 +83,7 @@ export const ImgCard = ({ img_src }) => {
 
     <div className="card_con ">
       <div className="inner_card_con">
-        <img src={img_src} alt="no image" className="" />
+        <img src={props.img_src} alt="no image" />
       </div>
 
       <div className="cover">
@@ -135,7 +138,7 @@ export const ContactCards = () => {
     <div className="col-sm-3 shadow-lg ">
       <div className="row  py-4 px-3 ">
         <div className="col-sm-2">
-          <img src="./img/icon-50.png" alt="" />
+          <img src={icon50} alt="" />
         </div>
         <div
           className="col-sm-10 ps-5 "
@@ -206,7 +209,7 @@ export const DevelopingCards = () => {
               <IoHomeOutline />
             </span>
           </div>
-          <img src="./img/image-1.jpg" alt="" className="img-fluid" />
+          <img src={image1} alt="" className="img-fluid" />
         </div>
         <div className="content ">
           <h4

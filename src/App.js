@@ -25,6 +25,7 @@ import SupportHistory from "./AdminPanel/SupportHistory";
 import DirectWithdraw from "./AdminPanel/DirectWithdraw";
 import WithdrawHistory from "./AdminPanel/WithdrawHistory";
 import Refer from "./AdminPanel/Refer";
+import AdsViewWithdraw from "./AdminPanel/AdsViewWithdraw";
 
 function App() {
   return (
@@ -96,7 +97,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <Profile />{" "}
+              <Profile />
             </>
           }
         />
@@ -106,7 +107,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <DirectTeam />{" "}
+              <DirectTeam />
             </>
           }
         />
@@ -116,7 +117,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <LevelTeam />{" "}
+              <LevelTeam />
             </>
           }
         />
@@ -126,7 +127,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <ViewTask />{" "}
+              <ViewTask />
             </>
           }
         />
@@ -136,7 +137,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <TaskHistory />{" "}
+              <TaskHistory />
             </>
           }
         />
@@ -146,7 +147,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <ScanPay />{" "}
+              <ScanPay />
             </>
           }
         />
@@ -156,7 +157,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <PaymentHistory />{" "}
+              <PaymentHistory />
             </>
           }
         />
@@ -166,7 +167,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <Support />{" "}
+              <Support />
             </>
           }
         />
@@ -176,7 +177,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <SupportHistory />{" "}
+              <SupportHistory />
             </>
           }
         />
@@ -186,7 +187,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <DirectWithdraw />{" "}
+              <DirectWithdraw />
             </>
           }
         />
@@ -196,7 +197,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <AdsViewWithdraw />{" "}
+              <AdsViewWithdraw />
             </>
           }
         />
@@ -206,7 +207,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <WithdrawHistory />{" "}
+              <WithdrawHistory />
             </>
           }
         />
@@ -216,7 +217,7 @@ function App() {
             <>
               <Sidebar />
               <NavBar />
-              <Refer />{" "}
+              <Refer />
             </>
           }
         />

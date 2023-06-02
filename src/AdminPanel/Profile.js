@@ -44,7 +44,6 @@ const Profile = () => {
                   Google Pay/ Phone Pe/ PayTm QR Code
                 </label>
                 <div className="col-sm-12">
-                  {" "}
                   <img
                     src=""
                     className="col-sm-2 h-auto"

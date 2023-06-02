@@ -6,6 +6,12 @@ import { GrSkype } from "react-icons/gr";
 import { AiOutlineGooglePlus } from "react-icons/ai";
 
 import LOGO from "../AID_MEDIA_LOGO.png";
+import gallery6 from "./img/gallery-6.jpg";
+import gallery7 from "./img/gallery-7.jpg";
+import gallery8 from "./img/gallery-8.jpg";
+import gallery9 from "./img/gallery-9.jpg";
+import gallery10 from "./img/gallery-10.jpg";
+import gallery11 from "./img/gallery-11.jpg";
 
 const Footer = () => {
   return (
@@ -57,23 +63,23 @@ const Footer = () => {
                 <div className="images_r_part py-4">
                   <div className="top_row">
                     <div className="top_images_r_part">
-                      <img src="./img/gallery-6.jpg" alt="" />
+                      <img src={gallery6} alt="" />
                     </div>
                     <div className="top_images_r_part">
-                      <img src="./img/gallery-7.jpg" alt="" />
+                      <img src={gallery7} alt="" />
                     </div>
                     <div className="top_images_r_part">
-                      <img src="./img/gallery-8.jpg" alt="" />
+                      <img src={gallery8} alt="" />
                     </div>
 
                     <div className="top_images_r_part">
-                      <img src="./img/gallery-9.jpg" alt="" />
+                      <img src={gallery9} alt="" />
                     </div>
                     <div className="top_images_r_part">
-                      <img src="./img/gallery-10.jpg" alt="" />
+                      <img src={gallery10} alt="" />
                     </div>
                     <div className="top_images_r_part">
-                      <img src="./img/gallery-11.jpg" alt="" />
+                      <img src={gallery11} alt="" />
                     </div>
                   </div>
                 </div>

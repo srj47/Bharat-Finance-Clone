@@ -1,16 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import LOGO from "../AID_MEDIA_LOGO.png";
-import {
-  BsSearch,
-  BsTwitter,
-  BsClockHistory,
-  BsClock,
-  BsFacebook,
-  BsPinterest,
-  BsInstagram,
-  BsYoutube,
-} from "react-icons/bs";
+import { BsClock } from "react-icons/bs";
 import { MdKeyboardArrowDown, MdKeyboardArrowRight } from "react-icons/md";
 import { GoPlus } from "react-icons/go";
 import { RxCrossCircled } from "react-icons/rx";
@@ -95,7 +86,7 @@ export const MainNavbar = () => {
 
   const CompanyToggle = () => {
     let c_dom = document.getElementById("com_items");
-    if (c_dom.style.display == "none") {
+    if (c_dom.style.display === "none") {
       c_dom.style.display = "flex";
     } else {
       c_dom.style.display = "none";
@@ -105,7 +96,7 @@ export const MainNavbar = () => {
 
   const LegalToggle = () => {
     let l_dom = document.getElementById("legal_items");
-    if (l_dom.style.display == "none") {
+    if (l_dom.style.display === "none") {
       document.getElementById("com_items").style.display = "flex";
       l_dom.style.display = "flex";
     } else {
@@ -137,18 +128,15 @@ export const MainNavbar = () => {
                   <div className="list_company_item py-3 ">
                     <div className="two_opt ">
                       <p className="px-3">
-                        {" "}
-                        <Link to="/about">ABOUT US</Link>{" "}
+                        <Link to="/about">ABOUT US</Link>
                       </p>
-                      <p className="more_opt_legal px-3">
-                        {" "}
+                      <div className="more_opt_legal px-3">
                         LEGAL <GoPlus className="fw-bold fs-4" />
                         <div className=" py-3 px-4 more_legal">
                           <p>
-                            {" "}
                             <Link to="/terms-conditions">
                               TERMS & CONDITIONS
-                            </Link>{" "}
+                            </Link>
                           </p>
                           <p
                             style={{
@@ -159,11 +147,10 @@ export const MainNavbar = () => {
                             <Link to="/disclaimer">DISCLAMER</Link>
                           </p>
                           <p>
-                            {" "}
                             <Link to="/policy-privacy">PRIVACY POLICY</Link>
                           </p>
                         </div>
-                      </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -211,7 +198,7 @@ export const MainNavbar = () => {
           </div>
           <div className="r_bottom_con">
             <div className="item_lists ps-2">
-              <Link to="/">HOME</Link>{" "}
+              <Link to="/">HOME</Link>
             </div>
             <div className="item_lists ps-2 comp_item" onClick={CompanyToggle}>
               COMPANY <GoPlus className="fw-bold fs-4" />
@@ -219,39 +206,31 @@ export const MainNavbar = () => {
 
             <div className="company_lists" id="com_items">
               <div className="item_lists ps-4">
-                {" "}
                 <Link to="/about">ABOUT US</Link>
               </div>
               <div className="item_lists ps-4 legal_item" onClick={LegalToggle}>
-                {" "}
                 LEGAL <GoPlus className="fw-bold fs-4" />
               </div>
             </div>
             <div className="legal_lists" id="legal_items">
               <div className="item_lists ps-5">
-                {" "}
                 <Link to="/terms-conditions">TERMS & CONDITIONS</Link>
               </div>
               <div className="item_lists ps-5">
-                {" "}
                 <Link to="/disclaimer">DISCLAMER</Link>
               </div>
               <div className="item_lists ps-5">
-                {" "}
-                <Link to="/policy-privacy">PRIVACY POLICY</Link>{" "}
+                <Link to="/policy-privacy">PRIVACY POLICY</Link>
               </div>
             </div>
 
             <div className="item_lists ps-2">
-              {" "}
               <Link to="/contact">CONTACT</Link>
             </div>
             <div className="item_lists ps-2">
-              {" "}
               <Link to="/sign-up">SIGN UP</Link>
             </div>
             <div className="item_lists ps-2">
-              {" "}
               <Link to="/sign-in">SIGN IN</Link>
             </div>
 

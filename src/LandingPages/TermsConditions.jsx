@@ -96,8 +96,12 @@ const TermsConditions = () => {
               <h3>You must not:</h3>
               <ul className="fs-4">
                 <li className="fs-4">Republish material from AID MEDIA</li>
-                <li className="fs-4">Sell, rent or sub-license material from AID MEDIA</li>
-                <li className="fs-4">Reproduce, duplicate or copy material from AID MEDIA</li>
+                <li className="fs-4">
+                  Sell, rent or sub-license material from AID MEDIA
+                </li>
+                <li className="fs-4">
+                  Reproduce, duplicate or copy material from AID MEDIA
+                </li>
                 <li className="fs-4">Redistribute content from AID MEDIA</li>
               </ul>
             </div>
@@ -176,7 +180,7 @@ const TermsConditions = () => {
                 <li className="fs-4">
                   System wide Accredited Businesses except soliciting non-profit
                   organizations, charity shopping malls, and charity fundraising
-                  groups which may not hyperlink to our Web site.{" "}
+                  groups which may not hyperlink to our Web site.
                 </li>
               </ul>
               <p className="fs-4">
@@ -201,11 +205,20 @@ const TermsConditions = () => {
                   commonly-known consumer and/or business information sources
                 </li>
                 <li className="fs-4"> dot.com community sites</li>
-                <li className="fs-4"> associations or other groups representing charities</li>
+                <li className="fs-4">
+                  {" "}
+                  associations or other groups representing charities
+                </li>
                 <li className="fs-4"> online directory distributors</li>
                 <li className="fs-4"> internet portals </li>
-                <li className="fs-4"> accounting, law and consulting firms; and</li>
-                <li className="fs-4"> educational institutions and trade associations.</li>
+                <li className="fs-4">
+                  {" "}
+                  accounting, law and consulting firms; and
+                </li>
+                <li className="fs-4">
+                  {" "}
+                  educational institutions and trade associations.
+                </li>
               </ul>
               <p className="fs-4">
                 We will approve link requests from these organizations if we

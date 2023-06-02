@@ -5,7 +5,7 @@ const SignIn = () => {
   return (
     <>
       <Navbar />
-      <MainNavbar />{" "}
+      <MainNavbar />
       <div className="background">
         <div className="center-box col-sm-3 p-5 ">
           <h1 className="my-4">LOGO</h1>
